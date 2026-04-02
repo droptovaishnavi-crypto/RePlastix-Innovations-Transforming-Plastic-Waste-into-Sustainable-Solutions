@@ -463,3 +463,58 @@ From the setup menu, search and select **Roles**.
 
 Demo link : https://drive.google.com/file/d/1J0p6vHJHfnUurOVneoAnqMKwc3Pnbla7/view?usp=drive_link , https://drive.google.com/file/d/151zajwS8c7BBGGXF_Gejj5AVg944bKCq/view?usp=drive_link
 
+## 8️⃣ Data Security – Profiles
+
+### 1️⃣ Create Custom Profile
+
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**  
+- Search **Profiles** in Quick Find → Select **Profiles** → Click **New Profile**  
+
+2️⃣ Fill Profile Details  
+- **Existing Profile Name:** Standard Platform User  
+- **User License:** Salesforce Platform  
+- **Profile Name:** Platform 1  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0GKmenr1pzFlUSAV327jR0AScDA6VHs1gF4Cscqhgjzev_S4T4TFnsCwd0CJeOw65O_gRGWjGmTJ0oKuaMs8-HJV8nbQpJvEfjWvwjf2sxZZRENx1cuiUv-4jcQEkrX4BwXql?key=W7stvKjAlqPw6HHAEQGheTEM)  
+
+3️⃣ Click **Save**  
+
+---
+
+### 2️⃣ Create More Profiles
+- **Platform 2** → Follow same steps as above  
+- **Platform 3** → Follow same steps as above  
+
+---
+
+### 3️⃣ Modify Platform 1
+1️⃣ Click **Edit** on Platform 1 Profile  
+2️⃣ Add Access for Platform 1 Profile  
+
+**Object Level Access:**  
+- **Re Plastic Innovations Plastic Waste:** Read / Create  
+- **Re Plastic Innovations Restock Request:** Read-Only  
+
+3️⃣ Click **Save**  
+
+---
+
+### 4️⃣ Modify Profiles – Platform 2 & Platform 3
+
+**Platform 2 Profile**  
+- **Read/Create:** Re Plastic Innovations Order, Account  
+- **Read-Only:** Re Plastic Innovations Plastic Waste, Re Plastic Innovations Recycled Product  
+
+**Platform 3 Profile**  
+- **Read/Create/Edit:** All Custom Objects  
+
+---
+
+### Tips
+- Profiles control **object-level access, field-level access, and user permissions**.  
+- Always review object access after creating or modifying profiles to maintain proper **data security**.  
+- Platform 3 profile has full access to test and manage all custom objects.
+
+Demo link : https://drive.google.com/file/d/1IyZ7_89EY2pryDuYmbTJnKD-98zCBWvS/view?usp=drive_link , https://drive.google.com/file/d/1x3RQpgZNHc1qaf0YE9qjDui1QdvJCm7M/view?usp=drive_link, https://drive.google.com/file/d/1-Sdp5F1D1qlO-a98MyKWSfAZY_pAYxXD/view?usp=drive_link, https://drive.google.com/file/d/1E_ks2vyMs3FAme7YNutEbD-frS9cW5-M/view?usp=drive_link
+
