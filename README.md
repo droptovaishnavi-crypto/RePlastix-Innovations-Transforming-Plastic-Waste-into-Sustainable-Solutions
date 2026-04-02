@@ -163,3 +163,126 @@ The purpose of creating the **Re Plastic Innovations Recycling Center** object i
 - You can also configure page layouts, validation rules, and relationships if needed.
 
 Demo link : https://drive.google.com/file/d/1V8PJkMsnG_bH2IF0149IAy6YNLKcvBjH/view?usp=drive_link
+
+## 3️⃣ Object – Re Plastic Innovations Recycled Product (Re_Plastic_Innovations_Recycled_Product__c)
+
+Story Duration: 1h 0m
+
+### Description
+The purpose of this object is to track all **recycled products**, their stock levels, thresholds, and pricing.
+
+### Step-by-Step Instructions
+
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**
+
+2️⃣ Open Object Manager  
+- In Setup → Click **Object Manager** → Click **Create** → Click **Custom Object**
+
+3️⃣ Enter Object Details  
+
+| Field              | Value                                |
+|-------------------|--------------------------------------|
+| Label             | Re Plastic Innovations Recycled Product |
+| Plural Label      | Re Plastic Innovations Recycled Products |
+| Object Name       | (auto-generated)                     |
+| Record Name Label | Recycled Product Name                 |
+| Data Type         | Text                                 |
+
+4️⃣ Enable Options  
+- Check **Allow Reports**  
+- Check **Allow Search**
+
+5️⃣ Save Object  
+- Click **Save**
+
+### Fields to Add
+
+| Field API Name   | Data Type  | Description                                |
+|-----------------|-----------|--------------------------------------------|
+| Stock_Level__c   | Number    | Current stock available                     |
+| Threshold__c     | Number    | Minimum stock before restock is triggered  |
+| Price__c         | Currency  | Price per unit                              |
+
+## 4️⃣ Object – Re Plastic Innovations Order (Re_Plastic_Innovations_Order__c)
+
+Story Duration: 1h 0m
+
+### Description
+The purpose of this object is to track **orders of recycled products** placed by customers.
+
+### Step-by-Step Instructions
+
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**
+
+2️⃣ Open Object Manager  
+- In Setup → Click **Object Manager** → Click **Create** → Click **Custom Object**
+
+3️⃣ Enter Object Details  
+
+| Field              | Value                                |
+|-------------------|--------------------------------------|
+| Label             | Re Plastic Innovations Order          |
+| Plural Label      | Re Plastic Innovations Orders         |
+| Object Name       | (auto-generated)                     |
+| Record Name Label | Order ID                              |
+| Data Type         | Auto Number                           |
+
+4️⃣ Enable Options  
+- Check **Allow Reports**  
+- Check **Allow Search**
+
+5️⃣ Save Object  
+- Click **Save**
+
+### Fields to Add
+
+| Field API Name         | Data Type                     | Description                     |
+|-----------------------|-------------------------------|---------------------------------|
+| Customer__c           | Lookup (Account)              | Customer placing the order      |
+| Recycled_Product__c   | Lookup (Recycled_Product__c)  | Ordered product                 |
+| Quantity__c           | Number                        | Quantity ordered                |
+| Delivery_Date__c      | Date                          | Expected delivery date          |
+
+## 5️⃣ Object – Re Plastic Innovations Restock Request (Re_Plastic_Innovations_Restock_Request__c)
+
+Story Duration: 1h 0m
+
+### Description
+The purpose of this object is to track **restock requests** for recycled products.
+
+### Step-by-Step Instructions
+
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**
+
+2️⃣ Open Object Manager  
+- In Setup → Click **Object Manager** → Click **Create** → Click **Custom Object**
+
+3️⃣ Enter Object Details  
+
+| Field              | Value                                |
+|-------------------|--------------------------------------|
+| Label             | Re Plastic Innovations Restock Request |
+| Plural Label      | Re Plastic Innovations Restock Requests |
+| Object Name       | (auto-generated)                     |
+| Record Name Label | Request ID                            |
+| Data Type         | Auto Number                           |
+
+4️⃣ Enable Options  
+- Check **Allow Reports**  
+- Check **Allow Search**
+
+5️⃣ Save Object  
+- Click **Save**
+
+### Fields to Add
+
+| Field API Name          | Data Type                     | Description                     |
+|------------------------|-------------------------------|---------------------------------|
+| Product__c             | Lookup (Recycled_Product__c)  | Product to restock              |
+| Requested_Quantity__c  | Number                        | Quantity requested              |
+| Status__c              | Picklist                       | ["Pending", "Approved", "Completed"] |
+
+Demo link : https://drive.google.com/file/d/16bEV-Q4CUTLFCshCBfcgAguTvgBY6p2g/view?usp=drive_link
