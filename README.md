@@ -286,3 +286,39 @@ The purpose of this object is to track **restock requests** for recycled product
 | Status__c              | Picklist                       | ["Pending", "Approved", "Completed"] |
 
 Demo link : https://drive.google.com/file/d/16bEV-Q4CUTLFCshCBfcgAguTvgBY6p2g/view?usp=drive_link
+
+## 3️⃣ Data Management: Tabs
+
+### 1️⃣ Tab – Re Plastic Innovations Recycling Center
+
+### Description
+The purpose of this tab is to provide easy access to the **Re Plastic Innovations Recycling Center** object from the Salesforce app interface.
+
+### Step-by-Step Instructions
+
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**
+
+2️⃣ Open Tabs  
+- Type **Tabs** in the Quick Find bar → Click **Tabs** → Click **New** (under Custom Object Tabs)
+
+3️⃣ Select Object  
+- Choose **Re Plastic Innovations Recycling Center**  
+
+4️⃣ Choose Tab Style  
+- Select any style you prefer → Click **Next**
+
+5️⃣ Add to Profiles  
+- Keep default settings → Click **Next**
+
+6️⃣ Add to Custom Apps  
+- Keep default settings → Click **Next**
+
+7️⃣ Save  
+- Click **Save**
+
+### Tips
+- After saving, this tab will appear in the app menu, making it easy for users to view and manage Recycling Center records.  
+- Repeat the process for other objects as needed.
+
+Demo link : https://drive.google.com/file/d/1ON5OA-DLSWyFYN_qCawD7oxjQfr9qAZf/view?usp=drive_link
