@@ -322,3 +322,49 @@ The purpose of this tab is to provide easy access to the **Re Plastic Innovation
 - Repeat the process for other objects as needed.
 
 Demo link : https://drive.google.com/file/d/1ON5OA-DLSWyFYN_qCawD7oxjQfr9qAZf/view?usp=drive_link
+
+## 5️⃣ Data Management – App Manager
+
+### 1️⃣ App – Re Plastic Innovations
+
+Story Duration: 45m
+
+### Description
+The purpose of this Lightning App is to provide a centralized interface for managing **Plastic Wastes, Recycling Centers, Recycled Products, Orders, and Restock Requests** in Salesforce, improving workflow and reporting for Re Plastic Innovations.
+
+### Step-by-Step Instructions
+
+Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**
+
+2️⃣ Open App Manager  
+- Search **App Manager** in the Quick Find bar → Click **App Manager** → Click **New Lightning App**
+
+ Fill App Details & Branding  
+- **App Name:** Re Plastic Innovations  
+- **Developer Name:** Auto-populated by Salesforce  
+- **Description:**  
+  > “A Salesforce app to manage plastic waste collection, recycling centers, recycled products, orders, and restock requests efficiently, ensuring streamlined operations and reporting for Re Plastic Innovations.”  
+- **Image:** Optional (e.g., green recycling icon)  
+- **Primary Color (Hex):** Keep default  
+
+ Click **Next** → App Options page: Keep default → **Next** → Utility Items: Keep default → **Next**
+
+Add Navigation Items  
+- Search and add these items using the arrow button:  
+  - **Restock Requests**  
+  - **Recycling Centers**  
+  - **Recycled Products**  
+  - **Plastic Wastes**  
+  - **Orders**  
+- **Note:** Select the custom objects you created in previous steps.  
+- Click **Next**
+
+ Assign User Profiles  
+- Search profiles (e.g., **System Administrator**) → Click the arrow to add → Click **Save & Finish**
+
+### Tips
+- After creation, the app will appear in the Salesforce app menu.  
+- Users with assigned profiles can access all tabs and objects within the app.
+
+Demo link : https://drive.google.com/file/d/1ht6FrcqUt9UYFEsK_feelUOOe94KM9pz/view?usp=drive_link
