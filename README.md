@@ -694,3 +694,44 @@ Demo link : https://drive.google.com/file/d/1pGh93f-1OtfL9IvWZ_UDHkwJpJ_QvhCK/vi
 
  Demo link : https://drive.google.com/file/d/17vDJGcvGsMDaYx_iu2N7-S0W1dFV7qgc/view?usp=drive_link
 
+ ## 11️⃣ Data Configuration – Formula Field
+
+### 11.1 Formula Field – Stock Low On Product
+
+1️⃣ **Select Object**  
+- From Setup → Quick Find box → Select **Object**  
+- Object Name: **Re Plastic Innovations Recycled Product**  
+
+2️⃣ **Create New Formula Field**  
+- Click **Fields & Relationships** → Click **New**  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXejB-N3cRICsyY_tHJc8ZPXU_5OH0lfbskTBNpB_CW2ZSA5v5AvnWkAv__JYvyDy32iisz3B2TNcVnIud2o_pado_7IsoGAIkyBpBAgTcOPd7U8-UHDluoOSAu_lvoHntu13W_NwA?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+3️⃣ **Select Data Type**  
+- Choose **Formula** → Click **Next**  
+- **Label Name:** Stock Low On Product  
+- **Data Type:** Text → Click **Next**  
+
+4️⃣ **Write Formula Logic**  
+- Click **Advanced Formula**  
+- Formula Logic:  
+
+5️⃣ **Test the Logic**  
+- Create a record to verify the formula  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZKBMmzg-VjZP1gkdhl8cKSJXfddYxTQ_orn8EXBJ07A6HdsM4ggc3S7HDFPjco8-G1tkoafSfn370vkqZuIye9Oognpb2lIagXALOJTQLvhcF-ggY0cgpIxwQ5h7yxqWEJucx?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+6️⃣ **Change Stock Value**  
+- Modify **Stock_Level__c** to test different outcomes  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfs_AjTKByFgyiIBWGBPgve-w3fpIc5Q0uctq08XUo96Zm9meNMhxcIQWpdx2Zxlul-Tsvw59HE7U5hbaWSBRAkm-w-FwuQYnDQKUXOyW50zhhi8Y7l5EJfgA_8dBlVT1hjnQOM4Q?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+---
+
+### Tips
+- Formula fields **automatically calculate values** based on other field data.  
+- Use formula fields for **real-time stock monitoring** and alerts.  
+- Always test formula with multiple records to ensure accuracy.
+
+Demo link : https://drive.google.com/file/d/17vDJGcvGsMDaYx_iu2N7-S0W1dFV7qgc/view?usp=drive_link
+
