@@ -1,6 +1,4 @@
 1) User Scenario: Automated Order & Replenishment Flows in Salesforce
-DH assigned : Vaishnavi . R
-
 
 This scenario demonstrates end-to-end automation in Salesforce for handling low-stock Orders, creating Replenishment Requests, and notifying the Warehouse Manager via email.
 
@@ -92,7 +90,6 @@ Demo drive link - https://drive.google.com/drive/folders/1Tx90QyUmVoAE445nbG1UQb
 ## 1️⃣ Object – Re Plastic Innovations Plastic Waste
 
 Story Duration: 1h 0m
-DH Assigned: Dhanush R
 
 ### Description
 The purpose of creating the Re Plastic Innovations Plastic Waste object is to have a clear record of all plastic waste items handled by Re Plastic Innovations.
@@ -128,3 +125,41 @@ The purpose of creating the Re Plastic Innovations Plastic Waste object is to ha
 - You can also configure page layouts, validation rules, and relationships if needed.
 
 Demo link : https://drive.google.com/file/d/1AVgsXH_dg-TzebjTEhmr7qW5KzpMH8wg/view?usp=drive_link
+
+## 2️⃣ Object – Re Plastic Innovations Recycling Center
+
+Story Duration: 1h 0m
+
+### Description
+The purpose of creating the **Re Plastic Innovations Recycling Center** object is to have detailed information about Dealers and Recycling Centers.
+
+### Step-by-Step Instructions
+
+1️⃣ Navigate to Setup
+- Click the gear icon (⚙️) → Click **Setup**
+
+2️⃣ Open Object Manager
+- In the Setup page → Click **Object Manager** → Click **Create** → Click **Custom Object**
+
+3️⃣ Enter Object Details
+
+| Field              | Value                                           |
+|-------------------|-------------------------------------------------|
+| Label             | Re Plastic Innovations Recycling Center         |
+| Plural Label      | Re Plastic Innovations Recycling Centers       |
+| Object Name       | (auto-generated)                                |
+| Record Name Label | Re Plastic Innovations Recycling Center        |
+| Data Type         | Text                                            |
+
+4️⃣ Enable Options
+- Check **Allow Reports**  
+- Check **Allow Search**
+
+5️⃣ Save Object
+- Click **Save**
+
+### Tips
+- After saving, you can add custom fields such as Dealer ID, Contact Info, Location, and Status.  
+- You can also configure page layouts, validation rules, and relationships if needed.
+
+Demo link : https://drive.google.com/file/d/1V8PJkMsnG_bH2IF0149IAy6YNLKcvBjH/view?usp=drive_link
