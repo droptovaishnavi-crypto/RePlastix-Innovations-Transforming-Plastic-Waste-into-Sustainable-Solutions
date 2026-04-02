@@ -431,4 +431,35 @@ The **Recycling Center** field links each plastic waste record to a specific rec
 
 Demo link : https://drive.google.com/file/d/1rhhsNwir6h5Y47s6n1lw0RWFuunI9uvd/view?usp=drive_link
 
+## Data Security – Roles
+
+### 1️⃣ Role – Recycling Manager
+
+### Creation Roles
+From the setup menu, search and select **Roles**.  
+
+1️⃣ Click **Add Roles** → Select **CEO Below** option  
+
+2️⃣ Fill Role Details  
+- **Label:** Recycling Manager  
+- **This Role Reports To:** CEO  
+
+3️⃣ Click **Save and New**  
+
+### 2️⃣ Role – Sales Representative
+- Repeat the steps to create this role  
+- **Reports To:** CEO  
+- Click **Save and New**  
+
+### 3️⃣ Role – Warehouse Supervisor
+- Repeat the steps to create this role  
+- **Reports To:** Sales Representative  
+- Click **Save**  
+
+### Tips
+- Each role should have a clear reporting hierarchy to maintain proper **data security and access control**.  
+- Roles help manage **object access, visibility, and permissions** in Salesforce.  
+- Ensure no role is missing a reporting manager to avoid access conflicts.
+
+Demo link : https://drive.google.com/file/d/1J0p6vHJHfnUurOVneoAnqMKwc3Pnbla7/view?usp=drive_link , https://drive.google.com/file/d/151zajwS8c7BBGGXF_Gejj5AVg944bKCq/view?usp=drive_link
 
