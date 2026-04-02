@@ -368,3 +368,67 @@ Add Navigation Items
 - Users with assigned profiles can access all tabs and objects within the app.
 
 Demo link : https://drive.google.com/file/d/1ht6FrcqUt9UYFEsK_feelUOOe94KM9pz/view?usp=drive_link
+
+## Data Management – Fields
+
+### 1️⃣ Field – Weight (Weight__c)
+
+### Description
+The **Weight** field stores the weight of plastic waste collected in kilograms. This field is essential for tracking the volume of waste handled, calculating processing capacity at recycling centers, and generating reports on collected plastic.  
+
+### Field Details
+- **API Name:** Weight__c  
+- **Data Type:** Number (18,2)  
+- **Object:** Re Plastic Innovations Plastic Waste  
+- **Description:** Weight of plastic waste in kilograms  
+
+### Tips
+- Use this field to filter, sort, and report on heavy vs. light waste items.  
+- Can be used in formulas to calculate total collected weight per center or per day.  
+- Ensure data entry is consistent (e.g., always in kg) to avoid errors in reporting.
+
+Demo link : https://drive.google.com/file/d/1Fc3IFs94ZYKMKDaX-VqISjJwuoKZYFcz/view?usp=drive_link
+
+
+### 2️⃣ Field – Type (Type__c)
+
+Story Duration: 10m
+
+### Description
+The **Type** field captures the category of plastic for each waste record. This helps in identifying the type of plastic (e.g., PET, HDPE, PVC) for proper recycling, segregation, and reporting purposes.  
+
+### Field Details
+- **API Name:** Type__c  
+- **Data Type:** Picklist  
+- **Object:** Re Plastic Innovations Plastic Waste  
+- **Description:** Select the type of plastic waste from predefined options such as PET, HDPE, PVC, etc.  
+
+### Tips
+- Use this field to generate reports by plastic type for analysis and planning.  
+- Ensure picklist values are consistent with recycling standards.  
+- Can be used in dashboards to show the proportion of each plastic type collected.
+
+Demo link : https://drive.google.com/file/d/1bQPvz_M0FOmOfBEmUxfts7ymMBFQY_P6/view?usp=drive_link
+
+
+### 3️⃣ Field – Re Plastic Innovations Recycling Center (Recycling_Center__c)
+
+Story Duration: 10m
+
+### Description
+The **Recycling Center** field links each plastic waste record to a specific recycling center. This allows tracking where the waste is being sent for processing and enables reporting on waste distribution across centers.  
+
+### Field Details
+- **API Name:** Recycling_Center__c  
+- **Data Type:** Lookup (Recycling Center__c)  
+- **Object:** Re Plastic Innovations Plastic Waste  
+- **Description:** Assigns the plastic waste record to a specific recycling center  
+
+### Tips
+- Use this field to filter and generate reports by recycling center.  
+- Helps in monitoring workload, capacity, and efficiency of each recycling center.  
+- Ensure the lookup points to valid and active recycling center records to avoid data inconsistence
+
+Demo link : https://drive.google.com/file/d/1rhhsNwir6h5Y47s6n1lw0RWFuunI9uvd/view?usp=drive_link
+
+
