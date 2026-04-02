@@ -587,3 +587,68 @@ Demo link : https://drive.google.com/file/d/1IyZ7_89EY2pryDuYmbTJnKD-98zCBWvS/vi
 
 Demo link : https://drive.google.com/file/d/1HgWIgFGi761DnPPjYPQPDYoHvHge5wNZ/view?usp=drive_link
 
+## 10️⃣ Automation – Flow Builder
+
+### 1️⃣ Flow Builder – Stock Level Alert
+
+**Story Duration:** 1h 59m  
+**Assigned to:** R. Vaishnavi  
+
+### Steps to Create Flow
+
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Select **Setup**  
+
+2️⃣ Open Flows  
+- In the Quick Find box, type **Flows** → Click **Flows** → Click **New Flow**  
+
+3️⃣ Configure Flow  
+- Select **Start From Scratch** → Click **Next**  
+- Select **Scheduled-Triggered Flow** → Click **Create**  
+
+4️⃣ Set Schedule  
+- **Date:** Today’s date  
+- **Time:** 6:00 AM  
+- **Frequency:** Daily  
+
+5️⃣ Select Object  
+- Choose **Re_Plastic_Innovations_Recycled_Product__c**  
+
+6️⃣ Add Decision Element  
+- Click **+ (Plus Icon)** → Select **Decision**  
+- **Label Name:** Decision 1  
+- **Outcome Name:** Outcome 1 of Decision 1  
+- **Condition:** `{!$Record.Stock_Level__c} < {!$Record.Threshold__c}`  
+
+7️⃣ Add Create Record Element  
+- Click **+ (Plus Icon)** → Search for **Create Records**  
+- **Label:** Create Task  
+- **How to Set Field Values:** Manually  
+- **Object:** Task  
+
+8️⃣ Set Task Field Values  
+- **Assigned To ID:** `{!$Record.OwnerId}`  
+- **Related To ID:** `{!$Record.Id}`  
+- **Priority:** High  
+- **Subject:** Please Look, Stock Is Low – Fill the Stock ASAP  
+- **Status:** In Progress  
+
+9️⃣ Save Flow  
+- **Label Name:** Stock Level Is Low → Click **Save**  
+
+🔟 Activate Flow  
+- Click **Activate**  
+
+### Testing the Flow
+- Set a test time → Create a record → Verify task creation  
+- Check **Upcoming & Overdue** tasks to confirm the flow works  
+
+---
+
+### Tips
+- Use scheduled flows to automate **daily stock monitoring**.  
+- Ensure **Threshold__c** and **Stock_Level__c** are correctly set to trigger alerts.  
+- Always test flows in **sandbox** before activating in production.
+
+Demo link : https://drive.google.com/file/d/1pGh93f-1OtfL9IvWZ_UDHkwJpJ_QvhCK/view?usp=drive_link
+
