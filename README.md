@@ -735,3 +735,17 @@ Demo link : https://drive.google.com/file/d/1pGh93f-1OtfL9IvWZ_UDHkwJpJ_QvhCK/vi
 
 Demo link : https://drive.google.com/file/d/17vDJGcvGsMDaYx_iu2N7-S0W1dFV7qgc/view?usp=drive_link
 
+## 12️⃣ Automation – Apex (Short)
+
+1. Create Apex Class `InventoryManager` with methods `processOrderStock` (reduces stock & creates restock request) and `processRestockApproval` (increases stock after approval).  
+2. Trigger `UpdateStockAfterOrder` on `Re_Plastic_Innovations_Order__c` → calls `processOrderStock` after insert.  
+3. Trigger `UpdateStockAfterRestockApproval` on `Re_Plastic_Innovations_Restock_Request__c` → calls `processRestockApproval` & `EmailNotificationHelper.sendRestockNotification` after approval.  
+4. Apex Class `EmailNotificationHelper` → sends email to warehouse manager when restock is approved.  
+5. Test Class `InventoryManagerTest` → creates product & orders, tests order processing, restock approval, ensures stock updates correctly.  
+6. Steps to test: create product with stock, create order exceeding stock, check restock request creation.  
+7. Approve restock request → stock updates automatically.  
+8. Email notification sent to manager.  
+9. Run test class → ensure 100% coverage.  
+10. All triggers and classes handle stock automation seamlessly.
+
+Demo link : https://drive.google.com/file/d/1LXfUeNQ3zKGaCaC0WxDmxYQPf848bfyn/view?usp=drive_link
