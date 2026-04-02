@@ -749,3 +749,22 @@ Demo link : https://drive.google.com/file/d/17vDJGcvGsMDaYx_iu2N7-S0W1dFV7qgc/vi
 10. All triggers and classes handle stock automation seamlessly.
 
 Demo link : https://drive.google.com/file/d/1LXfUeNQ3zKGaCaC0WxDmxYQPf848bfyn/view?usp=drive_link
+
+## 13️⃣ Data Security – Record Level Access
+
+1. Go to **Sharing Settings** → Click **Edit** → Set OWD (Org-Wide Defaults) for Re_Plastic_Innovations objects → Save.  
+2. **Create Sharing Rule: Recycling Manager Access**  
+   - Object: Re_Plastic_Innovations_Plastic_Waste__c  
+   - Shared From: CEO → To: Recycling Manager  
+   - Access: Read Only → Save.  
+3. **Create Sharing Rule: Sales Representative Access**  
+   - Object: Re_Plastic_Innovations_Recycled_Product__c  
+   - Shared From: CEO → To: Sales Representative  
+   - Access: Read Only → Save.  
+4. **Create Sharing Rule: Warehouse Supervisor Access**  
+   - Object: Re_Plastic_Innovations_Restock_Request__c  
+   - Shared From: Sales Representative → To: Warehouse Supervisor  
+   - Access: Read Only → Save.  
+5. Only specified users get record-level access per role; CEO controls sharing.
+
+Demo link: https://drive.google.com/file/d/1xyR_k0L7-IigGoTiqzQ_41bY8VoUptB6/view?usp=drive_link, https://drive.google.com/file/d/1voC_CES_Igh5K-ziWGPxn6aat0l92fWl/view?usp=drive_link
