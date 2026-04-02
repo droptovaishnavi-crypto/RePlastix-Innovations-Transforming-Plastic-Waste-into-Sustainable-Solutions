@@ -1,4 +1,6 @@
-#1) User Scenario: Automated Order & Replenishment Flows in Salesforce
+1) User Scenario: Automated Order & Replenishment Flows in Salesforce
+DH assigned : Vaishnavi . R
+
 
 This scenario demonstrates end-to-end automation in Salesforce for handling low-stock Orders, creating Replenishment Requests, and notifying the Warehouse Manager via email.
 
@@ -82,3 +84,45 @@ This scenario demonstrates end-to-end automation in Salesforce for handling low-
 ---
 
 Demo drive link - https://drive.google.com/drive/folders/1Tx90QyUmVoAE445nbG1UQb48TH6eQwMm?usp=drive_link
+
+
+
+# Data Management: Objects
+
+## 1️⃣ Object – Re Plastic Innovations Plastic Waste
+
+Story Duration: 1h 0m
+DH Assigned: Dhanush R
+
+### Description
+The purpose of creating the Re Plastic Innovations Plastic Waste object is to have a clear record of all plastic waste items handled by Re Plastic Innovations.
+
+### Step-by-Step Instructions
+
+1️⃣ Navigate to Setup
+- Click the gear icon (⚙️) → Click Setup
+
+2️⃣ Open Object Manager
+- In the Setup page → Click Object Manager → Click Create → Click Custom Object
+
+3️⃣ Enter Object Details
+
+| Field              | Value                                         |
+|-------------------|-----------------------------------------------|
+| Label             | Re Plastic Innovations Plastic Waste          |
+| Plural Label      | Re Plastic Innovations Plastic Wastes        |
+| Object Name       | (auto-generated)                              |
+| Record Name Label | Plastic Waste Name                             |
+| Data Type         | Auto Number                                   |
+| Display Format    | PW-{0001}                                     |
+
+4️⃣ Enable Options
+- Check Allow Reports
+- Check Allow Search
+
+5️⃣ Save Object
+- Click Save
+
+### Tips
+- After saving, you can add custom fields for properties like waste type, weight, source, etc.
+- You can also configure page layouts, validation rules, and relationships if needed.
