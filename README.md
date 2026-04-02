@@ -518,3 +518,72 @@ Demo link : https://drive.google.com/file/d/1J0p6vHJHfnUurOVneoAnqMKwc3Pnbla7/vi
 
 Demo link : https://drive.google.com/file/d/1IyZ7_89EY2pryDuYmbTJnKD-98zCBWvS/view?usp=drive_link , https://drive.google.com/file/d/1x3RQpgZNHc1qaf0YE9qjDui1QdvJCm7M/view?usp=drive_link, https://drive.google.com/file/d/1-Sdp5F1D1qlO-a98MyKWSfAZY_pAYxXD/view?usp=drive_link, https://drive.google.com/file/d/1E_ks2vyMs3FAme7YNutEbD-frS9cW5-M/view?usp=drive_link
 
+## 9️⃣ Data Security – Users
+
+### 1️⃣ User – John Production Engineer
+
+### User Creation
+1️⃣ Navigate to Setup  
+- Click the gear icon (⚙️) → Click **Setup**  
+- Search **Users** in Quick Find → Select **Users** → Click **New User**  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd0GKmenr1pzFlUSAV327jR0AScDA6VHs1gF4Cscqhgjzev_S4T4TFnsCwd0CJeOw65O_gRGWjGmTJ0oKuaMs8-HJV8nbQpJvEfjWvwjf2sxZZRENx1cuiUv-4jcQEkrX4BwXql?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+2️⃣ Fill User Information  
+- **First Name:** John Production Engineer  
+- **Last Name:** Sandbox 1  
+- **Alias:** Auto-populate  
+- **Email:** Personal Email ID  
+- **Username:** JohnProductionEngineer@sandbox1.com  
+- **Role:** Recycling Manager  
+- **Profile:** Platform 1  
+- **License:** Salesforce Platform  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8g36RkJOL_floqLaoP940EfH7boGXxGbjOOT44YdflLfQD_5P1kOAvddVmlXZ4Iga9hdr6CiNI-UbMnpS8Qzc5Z1RSpbVrKHhH3W8RRWNqEzqHIj0r9sHsn9nTGezz3UIlzSO6A?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+3️⃣ Click **Save**  
+4️⃣ Check Gmail for Reset Password email  
+5️⃣ Click **Verify Account**  
+6️⃣ Click **Reset Password**  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-upCb6yI9nLGTnr4xQBelGeKmm8YwR81IdTJR6OEHPzr35q0vPIi87I1gWVq3_xZwq3Q9p4QlfGhSKWFmkTIkI6qq5j4Pg2Qcwd1uRLLGTojlvE9eLwpwcIP44uE8b9HWFzuldA?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+7️⃣ Set Password and Click **Change Password**  
+
+![BlockNote image](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfP8c13Vth_tvtUTUN-yzenLr8X7V3lbVdP2tx7fj7FeYYWkTjjcTqNUID9dinaIk1v_AV5DNd52NOt23eh9Yo2ZnqUJKkv4P_02LcdYbgNQ2pm9noNjhTqF0oD9q8UmYvj_K4N?key=W7stvKjAlqPw6HHAEQGheTEM)
+
+---
+
+### 2️⃣ User – Quality Inspector
+
+- **First Name:** Quality Inspector  
+- **Last Name:** Mike  
+- **Email:** Personal Email ID  
+- **Username:** qualityinspector@company.com  
+- **Role:** Sales Representative  
+- **Profile:** Platform 2  
+
+> Follow the same steps as User 1 to save and reset the password.
+
+---
+
+### 3️⃣ User – Plant Manager
+
+- **First Name:** Plant Manager  
+- **Last Name:** Albert  
+- **Email:** Personal Email ID  
+- **Username:** plantmanager@company.com  
+- **Role:** Warehouse Supervisor  
+- **Profile:** Platform 3  
+
+> Follow the same steps as User 1 to save and reset the password.
+
+---
+
+### Tips
+- Ensure each user has **assigned role and profile** corresponding to their responsibilities.  
+- Reset passwords immediately to allow users to log in.  
+- Check email for verification before first login.
+
+Demo link : https://drive.google.com/file/d/1HgWIgFGi761DnPPjYPQPDYoHvHge5wNZ/view?usp=drive_link
+
