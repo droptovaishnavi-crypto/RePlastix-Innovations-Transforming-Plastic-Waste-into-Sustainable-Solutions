@@ -126,3 +126,5 @@ The purpose of creating the Re Plastic Innovations Plastic Waste object is to ha
 ### Tips
 - After saving, you can add custom fields for properties like waste type, weight, source, etc.
 - You can also configure page layouts, validation rules, and relationships if needed.
+
+Demo link : https://drive.google.com/file/d/1AVgsXH_dg-TzebjTEhmr7qW5KzpMH8wg/view?usp=drive_link
