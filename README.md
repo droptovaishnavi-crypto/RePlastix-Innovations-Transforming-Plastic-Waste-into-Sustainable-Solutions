@@ -1,4 +1,4 @@
-1) User Scenario: Automated Order & Replenishment Flows in Salesforce
+## 1️⃣ User Scenario: Automated Order & Replenishment Flows in Salesforce
 
 This scenario demonstrates end-to-end automation in Salesforce for handling low-stock Orders, creating Replenishment Requests, and notifying the Warehouse Manager via email.
 
