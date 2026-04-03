@@ -768,3 +768,24 @@ Demo link : https://drive.google.com/file/d/1LXfUeNQ3zKGaCaC0WxDmxYQPf848bfyn/vi
 5. Only specified users get record-level access per role; CEO controls sharing.
 
 Demo link: https://drive.google.com/file/d/1xyR_k0L7-IigGoTiqzQ_41bY8VoUptB6/view?usp=drive_link, https://drive.google.com/file/d/1voC_CES_Igh5K-ziWGPxn6aat0l92fWl/view?usp=drive_link
+
+## 14️⃣ Data Configuration Modules
+
+1. **Formula Field – Stock Low On Product**  
+   - Object: Re Plastic Innovations Recycled Product → Fields → New → Formula (Text)  
+   - Formula: IF(Stock_Level__c < Threshold__c, "Low Stock - Restock Needed", "Sufficient Stock")  
+   - Test by changing stock values.  
+
+2. **Validation Rule – Check_Quantity_Not_Zero**  
+   - Object: Re Plastic Innovations Order → Validation Rule → New  
+   - Formula: Quantity__c <= 0  
+   - Error: "Quantity must be greater than zero."  
+
+3. **Validation Rule – Future_Date_Collection**  
+   - Object: Re Plastic Innovations Plastic Waste  
+   - Formula: Collection_Date__c > TODAY()  
+   - Error: "Collection Date cannot be in the future."  
+
+4. Ensures accurate data entry and prevents invalid records.
+
+Demo link : https://drive.google.com/file/d/17vDJGcvGsMDaYx_iu2N7-S0W1dFV7qgc/view?usp=drive_link
